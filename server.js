@@ -1,9 +1,9 @@
 const express = require('express')
 const path = require('path')
 const app = express()
-const multer = require('multer')
-const {mergerPdfs} = require('./merge')
-const upload = multer({dest:'uploads/'})
+// const multer = require('multer')
+// const {mergerPdfs} = require('./merge')
+// const upload = multer({dest:'uploads/'})
 // app.use('/static',express.static('./public'));
 app.use(express.static(__dirname + '/public'));
 const port = 3000
